@@ -1,18 +1,10 @@
-## Getting Started
+## Virtual Clock (Java Port)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This is a port of the virtual clock plugin from one of my longterm personal projects: https://github.com/Ghostcrafter090/Ghosts-Ambience-System-Deffered-Server
 
-## Folder Structure
+Ghost's Adaptive Ambience System is a serverside application that generates and streams dynamic log cabin ambience, 
+changing according to the date, weather and time. It has a good 20 some odd plugins that do various things from chiming clocks to 
+rain noises. It also streams in surround sound accross my entire house, and has a bunch of various speaker types for handling that 
+(I.E. Clock Speaker, Fireplace Speaker, etc.).
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Joshua J 2026-03-03
