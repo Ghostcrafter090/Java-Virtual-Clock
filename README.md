@@ -7,4 +7,4 @@ changing according to the date, weather and time. It has a good 20 some odd plug
 rain noises. It also streams in surround sound accross my entire house, and has a bunch of various speaker types for handling that 
 (I.E. Clock Speaker, Fireplace Speaker, etc.).
 
-- Joshua J 2026-03-03
+ \- Joshua J 2026-03-03
