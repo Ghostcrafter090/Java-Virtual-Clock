@@ -5,7 +5,10 @@ import tools.sound;
 
 public class song {
     // Selects and plays the correct song for the current quarter hour
-    public static void playChimeSong(int theChimeSongType) {
+    public static void playChimeSong(int theCurrentMinute) {
+
+        int theChimeSongType = (int)Math.floor(theCurrentMinute / 15);
+
         switch (theChimeSongType) {
             case 0:
                 System.out.println("Playing Hour Chime Song...");
@@ -28,19 +31,5 @@ public class song {
                 clock.timeout(14);
                 return;
         }
-    }
-
-    // Deturmines the current quarter hour type
-    public static int getSongType(int theCurrentMinute) {
-        if (theCurrentMinute < 14) {
-            return 0;
-        }
-        if (theCurrentMinute < 29) {
-            return 1;
-        }
-        if (theCurrentMinute < 44) {
-            return 2;
-        }
-        return 3;
     }
 }

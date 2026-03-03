@@ -49,8 +49,8 @@ public class App extends Application {
             List<Integer> aDateArray = clock.getDateTime();
 
             if ((aDateArray.get(4) % 15) == 0) {
-                song.playChimeSong(song.getSongType(aDateArray.get(4)));
-                if (song.getSongType(aDateArray.get(4)) == 0) {
+                song.playChimeSong(aDateArray.get(4));
+                if (aDateArray.get(4) < 15) {
                     gong.playGong(aDateArray.get(3));
                 }
             }
