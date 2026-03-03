@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
-// When I'm withing my personal projects, I like to keep data formats consistent accross languages, this is what I am doing here
+// When I'm within my personal projects, I like to keep data formats consistent accross languages, this is what I am doing here
 // For example, in python have a module I built called "pytools", from which I'd get a "dateArray" by calling "pytools.clock.getDateTime()"
 // The consistency simply helps me streamline development in my projects that require multiple languages.
 
